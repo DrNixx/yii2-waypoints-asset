@@ -1,9 +1,9 @@
 <?php
 namespace onix\assets;
 
-use yii\web\AssetBundle;
+use yii\web\AssetBundle as YiiAssetBundle;
 
-class WaypointsAsset extends AssetBundle
+class WaypointsAsset extends YiiAssetBundle
 {
     public $sourcePath = '@bower/waypoints/lib';
 
